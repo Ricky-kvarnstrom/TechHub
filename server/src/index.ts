@@ -37,6 +37,6 @@ app.get("/questions/:id", async (req, res) => {
 
 app.listen(3000, () => {
   mongoose.connect(
-    "mongodb+srv://elias:elias@cluster0.mwobsou.mongodb.net/techhub?retryWrites=true&w=majority"
+    "mongodb+srv://ricky94:ricky94@cluster0.mbsozhx.mongodb.net/?retryWrites=true&w=majority"
   );
 });
