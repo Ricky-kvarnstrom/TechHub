@@ -25,7 +25,7 @@ export default function HomePage() {
   if (isError) return <div>oops, something went wrong...</div>;
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="">
       {questions.map((questions) => (
         <QuestionCard question={questions} />
       ))}
